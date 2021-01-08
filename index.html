@@ -11,11 +11,11 @@
   <!-- Bootstrap قالب -->
   <link rel="stylesheet" href="./assets/css/bootstrap-sketchy.css">
   <!-- font-awesome مكتبة -->
-  <link rel="stylesheet" href="./assets/font-awesome/css/all.css">
+  <!-- قم باستيراد مكتبة font-awesome هنا أو أي مكتبة متاحة لأيقونات التحميل -->
   <title>Cookie Factory</title>
 </head>
 
-<body onload="myFunction()">
+<!-- <body onload="myFunction()"> -->
   <div id="page" style="display:none;">
     <div id="sidebar">
       <img src="assets/img/cookies.png" class="logo" alt="website logo" />
@@ -74,11 +74,13 @@
       </div>
     </div>
   </div>
-  <div class="fa-3x" id="loader">
-    <i class="fas fa-spinner fa-spin"></i>
+  <!-- بونص 👑 -->
+  <div id="loader">
+    <!-- قم بإضافة أيقونة التحميل هنا -->
   </div>
   <script>
     // كود اختبار أيقونة التحميل
+    /*
     let myVar;
     function myFunction() {
       myVar = setTimeout(showPage, 3000);
@@ -87,6 +89,7 @@
       document.getElementById("loader").style.display = "none";
       document.getElementById("page").style.display = "block";
     }
+    */
   </script>
 </body>
 
