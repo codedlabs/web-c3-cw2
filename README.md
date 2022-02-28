@@ -5,7 +5,13 @@
 <ol>
 
 <li>
- قم بإنشاء ملف html جديد
+قم بعمل fork للـ repository
+
+<li>انسخ الrepository على جهازك
+
+<li>افتح برنامج visual studio code وافتح مجلد الrepository
+
+<li> قم بإنشاء ملف html جديد
 
 <li> استخدم عنصر &lt;h1> ثم قم بتغيير لون الخلفية باستخدام inline style
 
